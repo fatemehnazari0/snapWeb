@@ -1,0 +1,94 @@
+/* ttf format */
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/ttf/Vazirmatn-Thin.ttf);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/ttf/Vazirmatn-ExtraLight.ttf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/ttf/Vazirmatn-Light.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/ttf/Vazirmatn-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/ttf/Vazirmatn-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/ttf/Vazirmatn-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/ttf/Vazirmatn-Bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/ttf/Vazirmatn-ExtraBold.ttf);
+  font-weight: 800;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/ttf/Vazirmatn-Black.ttf);
+  font-weight: 900;
+}
+
+/*  webfont format*/
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/webfonts/Vazirmatn-Thin.woff2);
+  font-weight: 100;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/webfonts/Vazirmatn-ExtraLight.woff2);
+  font-weight: 200;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/webfonts/Vazirmatn-Light.woff2);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/webfonts/Vazirmatn-Regular.woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/webfonts/Vazirmatn-Medium.woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/webfonts/Vazirmatn-SemiBold.woff2);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/webfonts/Vazirmatn-Bold.woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/webfonts/Vazirmatn-ExtraBold.woff2);
+  font-weight: 800;
+}
+@font-face {
+  font-family: "vazir";
+  src: url(../fonts/webfonts/Vazirmatn-Black.woff2);
+  font-weight: 900;
+}
+
