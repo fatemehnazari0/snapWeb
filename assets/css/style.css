@@ -1,0 +1,17 @@
+/* Global styles */
+:root {
+  --white: #ffff;
+  --graywhite: #f1f5f8;
+  --gray: #c1c1c0;
+  --darkgreen: #0fc879;
+  --lightgreen: #00d171;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
