@@ -6,6 +6,7 @@
   --gray: #c1c1c0;
   --darkgreen: #0fc879;
   --lightgreen: #00d171;
+  --black: #000000;
 }
 * {
   margin: 0;
@@ -17,6 +18,62 @@
 a {
   text-decoration: none;
 }
-body{
+body {
   font-family: "vazir";
+}
+#banner{
+  display: flex;
+  justify-content: center;
+  background-color: var(--darkgreen);
+  height: 6rem;
+}
+#banner img{
+  width: 100%;
+}
+#navbar {
+  display: flex;
+  gap: 2rem;
+  padding-right: 4rem;
+  background-color: red;
+  align-items: center;
+  height: 6rem;
+}
+#navitems {
+  display: flex;
+  gap: 2.5rem;
+}
+#navitems a {
+  color: var(--black);
+}
+#herosection{
+  display: flex;
+  background-color: aqua;
+  justify-content: space-between;
+}
+#herosection--img img{
+  width: 50%;
+  background-color: blue;
+}
+#herosection--img{
+  display: contents;
+}
+#herosection--text{
+  background-color: orange;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding-right: 3rem;
+}
+#herosection--text h1{
+  width: 80%;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.8;
+}
+#herosection--text p{
+  width: 80%;
+  font-size: 20.3px;
+  line-height: 1.7;
+  /* align-self: center; */
+  text-align: ;
 }
