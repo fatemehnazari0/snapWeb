@@ -21,6 +21,7 @@ a {
 body {
   font-family: "vazir";
 }
+/* header banner styles */
 #banner {
   display: flex;
   justify-content: center;
@@ -30,6 +31,7 @@ body {
 #banner img {
   height: 90px;
 }
+/* navbar styles */
 #navbar {
   display: flex;
   gap: 2rem;
@@ -42,9 +44,34 @@ body {
   display: flex;
   gap: 2.5rem;
 }
+#navitems div:nth-child(1) svg,
+div:nth-child(7) svg {
+  width: 15px;
+}
+#navitems div:nth-child(1) a,
+div:nth-child(7) a {
+  display: flex;
+  gap: 8px;
+}
 #navitems a {
   color: var(--black);
 }
+/* #drop--down{
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--gray);
+  background-color: var(--white);
+
+  visibility: hidden;
+}
+#drop--down a{
+  margin: 5px;
+  font-family: "vazir";
+}
+#navitems div:nth-child(1):hover #drop--down{
+visibility: visible;
+} */
+/* herosection styles */
 #herosection {
   display: flex;
   background-color: aqua;
@@ -76,12 +103,19 @@ body {
 #herosection--form {
   display: flex;
   margin: 1rem;
-  /* justify-content: space-around; */
-  gap: 5rem;
+  gap: 3rem;
 }
-#herosection--form input[type="number"] {
-  /* background-color: red; */
+#herosection--form input[type="text"] {
+  background: none;
   border: none;
+  border-bottom: 1px solid var(--white);
+  color: var(--white);
+  padding-left: 2rem;
+}
+#herosection--form input[type="text"]::placeholder {
+  font-size: small;
+  padding: 1rem;
+  color: var(--white);
 }
 #herosection--form button {
   border-radius: 0.5rem;
@@ -92,6 +126,14 @@ body {
   background-color: var(--white);
   font-size: medium;
   color: rgb(14, 177, 65);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#herosection--form button:hover {
+  background-color: rgba(255, 255, 255, 0.87);
+}
+#login:hover {
+  background-color: rgba(255, 255, 255, 0.144);
 }
 #login {
   height: 3rem;
@@ -101,4 +143,30 @@ body {
   font-size: medium;
   font-family: "vazir";
   color: var(--white);
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+/* download app  */
+#download__container {
+  padding: 3rem 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+#download__container img {
+  width: 10rem;
+}
+#download__container div {
+  align-items: center;
+  display: flex;
+}
+/* services styles */
+#services__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services--items {
+  display: flex;
+  flex-wrap: wrap;
 }
