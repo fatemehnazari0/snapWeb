@@ -4,7 +4,7 @@
   --white: #ffff;
   --graywhite: #f1f5f8;
   --gray: #c1c1c0;
-  --darkgreen: #0fc879;
+  --darkgreen: #21aa58;
   --lightgreen: #00d171;
   --black: #000000;
 }
@@ -21,22 +21,22 @@ a {
 body {
   font-family: "vazir";
 }
-#banner{
+#banner {
   display: flex;
   justify-content: center;
-  background-color: var(--darkgreen);
-  height: 6rem;
+  background-color: rgb(15, 206, 76);
+  height: 90px;
 }
-#banner img{
-  width: 100%;
+#banner img {
+  height: 90px;
 }
 #navbar {
   display: flex;
   gap: 2rem;
   padding-right: 4rem;
-  background-color: red;
+  background-color: var(--white);
   align-items: center;
-  height: 6rem;
+  padding: 2rem 4rem;
 }
 #navitems {
   display: flex;
@@ -45,35 +45,60 @@ body {
 #navitems a {
   color: var(--black);
 }
-#herosection{
+#herosection {
   display: flex;
   background-color: aqua;
   justify-content: space-between;
 }
-#herosection--img img{
+#herosection--img img {
   width: 50%;
   background-color: blue;
 }
-#herosection--img{
+#herosection--img {
   display: contents;
 }
-#herosection--text{
-  background-color: orange;
+#herosection--text {
+  background-color: var(--darkgreen);
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  padding-right: 3rem;
+  padding: 2rem 4rem;
+  color: var(--white);
 }
-#herosection--text h1{
-  width: 80%;
+#herosection--text h1 {
   font-weight: 500;
   font-size: 36px;
   line-height: 1.8;
 }
-#herosection--text p{
-  width: 80%;
+#herosection--text p {
   font-size: 20.3px;
   line-height: 1.7;
-  /* align-self: center; */
-  text-align: ;
+}
+#herosection--form {
+  display: flex;
+  margin: 1rem;
+  /* justify-content: space-around; */
+  gap: 5rem;
+}
+#herosection--form input[type="number"] {
+  /* background-color: red; */
+  border: none;
+}
+#herosection--form button {
+  border-radius: 0.5rem;
+  border: none;
+  font-family: "vazir";
+  height: 3rem;
+  min-width: 7.5rem;
+  background-color: var(--white);
+  font-size: medium;
+  color: rgb(14, 177, 65);
+}
+#login {
+  height: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--white);
+  background-color: var(--darkgreen);
+  font-size: medium;
+  font-family: "vazir";
+  color: var(--white);
 }
